@@ -1,0 +1,13 @@
+.header{
+    font-family: Open Sans;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 120, 0);
+    opacity: 0.8;
+    color: white;
+    height: 80px;
+    z-index: 1000;
+}
