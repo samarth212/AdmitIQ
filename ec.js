@@ -8,11 +8,11 @@ function addEC(){
             <button class="ec-type-ph">Type</button>
 
             <div class="ec-type">
-                <p>School club</p>
-                <p>School sport</p>
-                <p>Internship/Research</p>
-                <p>Volunteering</p>
-                <p>Job</p>
+                <p onclick="changeType('School Club')">School club</p>
+                <p onclick="changeType('School Sport')">School sport</p>
+                <p onclick="changeType('Internship/Research')">Internship/Research</p>
+                <p onclick="changeType('Volunteering')">Volunteering</p>
+                <p onclick="changeType('Job')">Job</p>
             </div>
 
         </div>
@@ -23,5 +23,5 @@ function addEC(){
 }
 
 function changeType(type){
-    document.querySelector(".ec-type").innerHTML = 'type'
+    document.querySelector(".ec-type-ph").innerHTML = type
 }
