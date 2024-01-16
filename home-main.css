@@ -87,6 +87,7 @@ body{
     z-index: 1;
     background-color: black;
     color: white;
+    border-radius: 10px;
 }
 
 .ec-dropdown:hover .ec-type{
@@ -108,4 +109,10 @@ body{
     border-color: orange;
     border-radius: 10px;
     background-color: black;
+    margin-bottom: 10px;
+}
+
+.add-ec{
+    font-size: 30px;
+    color: white;
 }
