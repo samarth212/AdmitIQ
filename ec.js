@@ -16,7 +16,7 @@ function addEC() {
         <div class="ec-dropdown">
             <button class="ec-pos-ph">Highest Position Acheived</button>
             <div class="ec-type">
-                <p onclick="changePos(this, 'Chapter Office')">Chapter Officer</p>
+                <p onclick="changePos(this, 'Chapter Officer')">Chapter Officer</p>
                 <p onclick="changePos(this, 'Club President/VP')">Club President/VP</p>
                 <p onclick="changePos(this, 'State Officer')">State Officer</p>
                 <p onclick="changePos(this, 'National Officer')">National Officer</p>
