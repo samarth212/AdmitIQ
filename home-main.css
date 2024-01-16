@@ -12,7 +12,7 @@ body{
 }
 
 
-.stats p, .ec p, .major p, .college-select p{
+.user-info-header{
     color: white;
     font-weight: 600;
     font-size: 30px;
@@ -67,4 +67,45 @@ body{
 }
 .add-ec:hover{
     color: rgb(255, 120, 0);
+}
+
+.ec-row{
+    display: flex;
+}
+
+.ec-dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.ec-type{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: black;
+    color: white;
+}
+
+.ec-dropdown:hover .ec-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ec-type p:hover{
+    color: rgb(255, 120, 0);
+}
+
+.ec-type-ph{
+    color: rgb(180, 180, 180);
+    padding: 10px 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+    border-radius: 10px;
+    background-color: black;
 }

@@ -27,7 +27,7 @@
     <div class="user-info">
 
         <div class="stats">
-            <p>Stats</p>
+            <p class="user-info-header">Stats</p>
             <input class="gpa" type="text" placeholder="Unweighted GPA">
             <input class="sat" type="text" placeholder="SAT Score (write 0 if test-optional)">
             <input class="regional-awards" type="text" placeholder="# of regional-level awards won">
@@ -37,22 +37,40 @@
 
         <div class="ec">
             <div class="ec-header">
-                <p>Extracurriculars</p>
+                <p class="user-info-header">Extracurriculars</p>
 
                 <p class="add-ec" onclick="
                     addEC()
                 ">+</p>
+            </div>
+
+        <div class="ec-row">
+
+            <div class="ec-dropdown">
+
+                <button class="ec-type-ph">Type</button>
+
+                <div class="ec-type">
+                    <p>School club</p>
+                    <p>School sport</p>
+                    <p>Internship/Research</p>
+                    <p>Volunteering</p>
+                    <p>Job</p>
+                </div>
 
             </div>
             
         </div>
 
+            
+        </div>
+
         <div class="major">
-            <p>Major</p>
+            <p class="user-info-header">Major</p>
         </div>
 
         <div class="college-select">
-            <p>College/University</p>
+            <p class="user-info-header">College/University</p>
         </div>
 
         <button class="calculate">Calculate</button>
