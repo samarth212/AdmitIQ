@@ -7,17 +7,52 @@ body{
     background-size: cover;
     font-family: Open Sans;
     */
-    background-color:cornsilk;
+    background-color: rgb(80, 80, 80);
     font-family: Open Sans;
 }
 
 
 .stats p, .extracurriculars p, .major p, .college-select p{
-    color: black;
+    color: white;
     font-weight: 600;
     font-size: 30px;
+    margin-bottom: 0;
 }
 
 .user-info{
     margin-left: 40px;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+}
+.stats input{
+    width: 450px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+.calculate{
+    font-size: 22px;
+    margin-top: 50px;
+    padding: 20px 30px;
+    color: white;
+    background-color: rgb(255, 120, 0);
+    border: none;
+    border-radius: 20px;
+    transition: padding 0.2s, background-color 0.3s;
+    
+}
+.calculate:hover{
+    padding: 25px 35px;
+    background-color: black;
 }
