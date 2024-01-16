@@ -12,7 +12,7 @@ body{
 }
 
 
-.stats p, .extracurriculars p, .major p, .college-select p{
+.stats p, .ec p, .major p, .college-select p{
     color: white;
     font-weight: 600;
     font-size: 30px;
