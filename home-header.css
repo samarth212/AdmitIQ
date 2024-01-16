@@ -3,7 +3,6 @@
     font-size: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 120, 0);
     opacity: 0.9;
@@ -23,18 +22,12 @@
     transition: color 0.5s;
 }
 
-.header-button-selected{
-
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
-    font-family: Open Sans;
-    transition: color 0.5s;
-}
 
 .header-button:hover{
     color: rgb(100, 100, 100);
 }
 
+.header-cont{
+    display: flex;
+    margin: 0;
+}

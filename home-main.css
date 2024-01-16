@@ -1,8 +1,23 @@
 body{
     margin: 0;
+    /*
     background-image: url(images/50738746801_1dcae92b2c_o.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font-family: Open Sans;
+    */
+    background-color:cornsilk;
+    font-family: Open Sans;
+}
+
+
+.stats p, .extracurriculars p, .major p, .college-select p{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.user-info{
+    margin-left: 40px;
 }
