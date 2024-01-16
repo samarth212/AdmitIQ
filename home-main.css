@@ -76,6 +76,8 @@ body{
 .ec-dropdown{
     position: relative;
     display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .ec-type{
@@ -95,9 +97,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .ec-type p:hover{
     color: rgb(255, 120, 0);
+}
+
+.ec-type p{
+    margin: 5px;
 }
 
 .ec-type-ph{
@@ -110,6 +117,17 @@ body{
     border-radius: 10px;
     background-color: black;
     margin-bottom: 10px;
+}
+
+.ec-pos-ph{
+    color: rgb(180, 180, 180);
+    padding: 10px 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+    border-radius: 10px;
+    background-color: black;
 }
 
 .add-ec{
