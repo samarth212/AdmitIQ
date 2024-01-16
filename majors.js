@@ -1,3 +1,3 @@
 function changeMajor(major){
-    document.querySelector(".selected-major").innerHTML = 
+    document.querySelector(".selected-major").innerHTML = major
 }
