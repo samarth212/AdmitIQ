@@ -22,6 +22,19 @@
     font-family: Open Sans;
     transition: color 0.5s;
 }
+
+.header-button-selected{
+
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Open Sans;
+    transition: color 0.5s;
+}
+
 .header-button:hover{
     color: rgb(100, 100, 100);
 }
+
