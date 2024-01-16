@@ -56,3 +56,15 @@ body{
     padding: 25px 35px;
     background-color: black;
 }
+
+.ec-header{
+    display: flex;
+}
+
+.add-ec{
+    margin-left: 20px; 
+    cursor: pointer;
+}
+.add-ec:hover{
+    color: rgb(255, 120, 0);
+}
