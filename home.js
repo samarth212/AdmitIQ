@@ -28,7 +28,7 @@ function calcStats(){
     let satPoints = 0
 
     if (isNaN(sat)){
-        alert('Please enter a valid SAT Score.')
+        alert('Please enter a valid SAT or ACT score.')
     }
     else{
         if (sat >= 1550){
@@ -39,6 +39,12 @@ function calcStats(){
         }
         else if (sat >= 1400){
             satPoints = 1
+        }
+        else if (sat == 36 || sat == 35){
+            satPoints = 5
+        }
+        else if (sat == 34 || sat == 33){
+            satPoints = 3
         }
         else{
             satPoints = 0
@@ -80,7 +86,9 @@ function calcStats(){
     }
     console.log(naPoints)
 
+    let totalStat = gpaPoints + satPoints + raPoints + saPoints + naPoints
     
+    console.log('total for stats:', totalStat)
 
 }
 
