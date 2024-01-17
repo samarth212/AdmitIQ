@@ -69,6 +69,17 @@ function calcStats(){
     }
     console.log(saPoints)
 
+    let na = Number(document.querySelector('.national-awards').value)
+    let naPoints = 0
+
+    if (isNaN(na)){
+        alert('Please enter a valid input for national awards.')
+    }
+    else{
+        naPoints = na*3
+    }
+    console.log(naPoints)
+
     
 
 }
