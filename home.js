@@ -58,6 +58,17 @@ function calcStats(){
     }
     console.log(raPoints)
 
+    let sa = Number(document.querySelector('.state-awards').value)
+    let saPoints = 0
+
+    if (isNaN(sa)){
+        alert('Please enter a valid input for state awards.')
+    }
+    else{
+        saPoints = sa*2
+    }
+    console.log(saPoints)
+
     
 
 }
