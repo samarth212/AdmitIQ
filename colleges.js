@@ -7,4 +7,5 @@ function changeCollege(collegeChoice){
 
 function calcCollegeMajor(){
 
+
 }
