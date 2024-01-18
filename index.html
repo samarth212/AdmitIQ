@@ -28,6 +28,33 @@
 
     <div class="user-info">
 
+        <div class="college-select">
+            <p class="user-info-header">College/University</p>
+            <div class="college-dropdown">
+                <button class="selected-college">Select Target College</button>
+                <div class="college-choices">
+                    <p onclick="changeCollege('Harvard'); college='Harvard';">Harvard</p>
+                    <p onclick="changeCollege('Stanford'); college='Stanford';">Stanford</p>
+                    <p onclick="changeCollege('MIT'); college='MIT';">MIT</p>
+                    <p onclick="changeCollege('UPenn'); college='UPenn';">UPenn</p>
+                    <p onclick="changeCollege('Cornell'); college='Cornell';">Cornell</p>
+                    <p onclick="changeCollege('CMU'); college='CMU';">CMU</p>
+                    <p onclick="changeCollege('Brown'); college='Brown';">Brown</p>
+                    <p onclick="changeCollege('Columbia'); college='Columbia';">Columbia</p>
+                    <p onclick="changeCollege('Dartmouth'); college='Dartmouth';">Dartmouth</p>
+                    <p onclick="changeCollege('Princeton'); college='Princeton';">Princeton</p>
+                    <p onclick="changeCollege('Yale'); college='Yale';">Yale</p>
+                    <p onclick="changeCollege('GA Tech'); college='GA Tech';">GA Tech</p>
+                    <p onclick="changeCollege('Cal Tech'); college='Cal Tech';">Cal Tech</p>
+                    <p onclick="changeCollege('Duke'); college='Duke';">Duke</p>
+                    <p onclick="changeCollege('John Hopkins'); college='John Hopkins';">John Hopkins</p>
+                    <p onclick="changeCollege('Northwestern'); college='Northwestern';">Northwestern</p>
+                    <p onclick="changeCollege('UC Berkeley'); college='UC Berkeley';">UC Berkeley</p>
+                    <p onclick="changeCollege('Urbana Champaign'); college='Urbana Champaign';">Urbana Champaign</p>
+                </div>
+            </div>
+        </div>
+
         <div class="stats">
             <p class="user-info-header">Stats</p>
             <input class="gpa" type="text" placeholder="Unweighted GPA">
@@ -69,32 +96,7 @@
             </div>
         </div>
 
-        <div class="college-select">
-            <p class="user-info-header">College/University</p>
-            <div class="college-dropdown">
-                <button class="selected-college">Select Target College</button>
-                <div class="college-choices">
-                    <p onclick="changeCollege('Harvard'); college='Harvard';">Harvard</p>
-                    <p onclick="changeCollege('Stanford'); college='Stanford';">Stanford</p>
-                    <p onclick="changeCollege('MIT'); college='MIT';">MIT</p>
-                    <p onclick="changeCollege('UPenn'); college='UPenn';">UPenn</p>
-                    <p onclick="changeCollege('Cornell'); college='Cornell';">Cornell</p>
-                    <p onclick="changeCollege('CMU'); college='CMU';">CMU</p>
-                    <p onclick="changeCollege('Brown'); college='Brown';">Brown</p>
-                    <p onclick="changeCollege('Columbia'); college='Columbia';">Columbia</p>
-                    <p onclick="changeCollege('Dartmouth'); college='Dartmouth';">Dartmouth</p>
-                    <p onclick="changeCollege('Princeton'); college='Princeton';">Princeton</p>
-                    <p onclick="changeCollege('Yale'); college='Yale';">Yale</p>
-                    <p onclick="changeCollege('GA Tech'); college='GA Tech';">GA Tech</p>
-                    <p onclick="changeCollege('Cal Tech'); college='Cal Tech';">Cal Tech</p>
-                    <p onclick="changeCollege('Duke'); college='Duke';">Duke</p>
-                    <p onclick="changeCollege('John Hopkins'); college='John Hopkins';">John Hopkins</p>
-                    <p onclick="changeCollege('Northwestern'); college='Northwestern';">Northwestern</p>
-                    <p onclick="changeCollege('UC Berkeley'); college='UC Berkeley';">UC Berkeley</p>
-                    <p onclick="changeCollege('Urbana Champaign'); college='Urbana Champaign';">Urbana Champaign</p>
-                </div>
-            </div>
-        </div>
+        
 
         <button class="calculate" onclick="
         calcStats()
@@ -107,6 +109,7 @@
         document.querySelector('.regional-awards').value = ''
         document.querySelector('.state-awards').value = ''
         document.querySelector('.national-awards').value = ''
+        document.querySelector('.ec').innerHTML = ecResetString
         ecPoints = 0
         totalECPoints = 0
         ecCount = 0

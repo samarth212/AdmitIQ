@@ -1,3 +1,15 @@
+let ecResetString = `
+
+    <div class="ec-header">
+        <p class="user-info-header">Extracurriculars</p>
+        <p class="add-ec" onclick="
+            addEC()
+        ">+</p>
+    </div>
+
+
+
+`
 let totalStat = 0
 
 function calcStats(){
