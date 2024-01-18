@@ -1,6 +1,5 @@
 let college = ''
 let collegePoints = 0
-import { major } from './majors.js'
 
 
 function changeCollege(collegeChoice){

@@ -54,17 +54,17 @@
             <div class="major-dropdown">
                 <button class="selected-major">Select Primary Major</button>
                 <div class="major-choices">
-                    <p onclick="changeMajor('Computer Science'); major='Computer Science'; export { major };">Computer Science</p>
-                    <p onclick="changeMajor('Engineering'); major='Engineering'; export { major };">Engineering</p>
-                    <p onclick="changeMajor('Medicine'); major='Medicine'; export { major };">Medicine</p>
-                    <p onclick="changeMajor('Biology'); major='Biology'; export { major };">Biology</p>
-                    <p onclick="changeMajor('Chemistry'); major='Chemistry'; export { major };">Chemistry</p>
-                    <p onclick="changeMajor('Physics'); major='Physics'; export { major };">Physics</p>
-                    <p onclick="changeMajor('Business'); major='Business'; export { major };">Business</p>
-                    <p onclick="changeMajor('Economics'); major='Economics'; export { major };">Economics</p>
-                    <p onclick="changeMajor('Political Science'); major='Political Science'; export { major };">Political Science</p>
-                    <p onclick="changeMajor('Liberal Arts'); major='Liberal Arts'; export { major };">Liberal Arts</p>
-                    <p onclick="changeMajor('Other'); major='Other'; export { major };">Other</p>
+                    <p onclick="changeMajor('Computer Science'); major='Computer Science';">Computer Science</p>
+                    <p onclick="changeMajor('Engineering'); major='Engineering';">Engineering</p>
+                    <p onclick="changeMajor('Medicine'); major='Medicine';">Medicine</p>
+                    <p onclick="changeMajor('Biology'); major='Biology';">Biology</p>
+                    <p onclick="changeMajor('Chemistry'); major='Chemistry';">Chemistry</p>
+                    <p onclick="changeMajor('Physics'); major='Physics';">Physics</p>
+                    <p onclick="changeMajor('Business'); major='Business';">Business</p>
+                    <p onclick="changeMajor('Economics'); major='Economics';">Economics</p>
+                    <p onclick="changeMajor('Political Science'); major='Political Science';">Political Science</p>
+                    <p onclick="changeMajor('Liberal Arts'); major='Liberal Arts';">Liberal Arts</p>
+                    <p onclick="changeMajor('Other'); major='Other';">Other</p>
                 </div>
             </div>
         </div>
@@ -99,16 +99,36 @@
         <button class="calculate" onclick="
         calcStats()
         calcEC()
-        console.log(college)
+        calcCollegeMajor()
+        changeMajor('Select Primary Major')
+        changeCollege('Select Target College')
+        document.querySelector('.gpa').value = ''
+        document.querySelector('.sat').value = ''
+        document.querySelector('.regional-awards').value = ''
+        document.querySelector('.state-awards').value = ''
+        document.querySelector('.national-awards').value = ''
+
+        ecPoints = 0
+        totalECPoints = 0
+        ecCount = 0
+        ecFinalPoints = 0
+        totalStat = 0
+        major = ''
+        college = ''
+        collegePoints = 0
+        
         ">Calculate</button>
 
     </div>
 
 </body>
-<script type="module" src="ec.js"></script>
-<script type="module" src="majors.js"></script>
-<script type="module" src="colleges.js"></script>
-<script type="module" src="home.js"></script>
+<!--
+<script src="ec.js"></script>
+<script src="majors.js"></script>
+<script src="colleges.js"></script>
+-->
+
+<script src="home.js"></script>
 
 
 </html>
