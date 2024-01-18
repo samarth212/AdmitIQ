@@ -8,6 +8,7 @@ function changeCollege(collegeChoice){
 }
 
 function calcCollegeMajor(){
+    
     if (major == 'Computer Science'){
 
         if (college != 'MIT' && college != 'Stanford' && college != 'CMU' && college != 'Princeton' && college != 'GA Tech' && college != 'Cal Tech' && college != 'UC Berkeley' && college != 'Urbana Champaign'){
@@ -48,5 +49,6 @@ function calcCollegeMajor(){
         collegePoints = 0
     }
   
+    console.log(collegePoints)
     
 }
