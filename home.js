@@ -243,26 +243,74 @@ let chance = 'You are very unlikely to be accepted.'
 // || college == 'Cal Tech' || college == 'MIT' || college == 'Stanford'
 function calcChance(){
     if (college == 'Harvard'){
-        if (finalScore > 42){
+        if (finalScore >= 42){
             chance = 'You are very likely to be accepted into Harvard!'
+        }
+        else if (37 < finalScore < 42){
+            chance = 'You are likely to be accepted into Harvard.'
+        }
+        else if (34 < finalScore <= 37){
+            chance = 'You are somewhat likely to be accepted into Harvard. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (31 < finalScore <= 34){
+            chance = 'You are unlikely to be accepted into Harvard. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into Harvard. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
     else if (college == 'Cal Tech'){
-        if (finalScore > 42){
+        if (finalScore >= 42){
             chance = 'You are very likely to be accepted into Cal Tech!'
+        }
+        else if (37 < finalScore < 42){
+            chance = 'You are likely to be accepted into Cal Tech.'
+        }
+        else if (34 < finalScore <= 37){
+            chance = 'You are somewhat likely to be accepted into Cal Tech. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (31 < finalScore <= 34){
+            chance = 'You are unlikely to be accepted into Cal Tech. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into Cal Tech. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
     else if (college == 'MIT'){
-        if (finalScore > 42){
+        if (finalScore >= 42){
             chance = 'You are very likely to be accepted into MIT!'
+        }
+        else if (37 < finalScore < 42){
+            chance = 'You are likely to be accepted into MIT.'
+        }
+        else if (34 < finalScore <= 37){
+            chance = 'You are somewhat likely to be accepted into MIT. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (31 < finalScore <= 34){
+            chance = 'You are unlikely to be accepted into MIT. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into MIT. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
     else if (college == 'Stanford'){
-        if (finalScore > 42){
+        if (finalScore >= 42){
             chance = 'You are very likely to be accepted into Stanford!'
+        }
+        else if (37 < finalScore < 42){
+            chance = 'You are likely to be accepted into Stanford.'
+        }
+        else if (34 < finalScore <= 37){
+            chance = 'You are somewhat likely to be accepted into Stanford. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (31 < finalScore <= 34){
+            chance = 'You are unlikely to be accepted into Stanford. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into Stanford. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
