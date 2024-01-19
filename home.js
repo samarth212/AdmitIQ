@@ -253,6 +253,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into Harvard.'
         }
         else if (34 < finalScore && finalScore <= 37){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into Harvard. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (31 < finalScore && finalScore <= 34){
@@ -273,6 +274,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into Cal Tech.'
         }
         else if (34 < finalScore && finalScore <= 37){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into Cal Tech. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (31 < finalScore && finalScore <= 34){
@@ -293,6 +295,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into MIT.'
         }
         else if (34 < finalScore && finalScore <= 37){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into MIT. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (31 < finalScore && finalScore <= 34){
@@ -313,6 +316,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into Stanford.'
         }
         else if (34 < finalScore && finalScore <= 37){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into Stanford. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (31 < finalScore && finalScore <= 34){
@@ -333,6 +337,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into Yale.'
         }
         else if (33 < finalScore && finalScore <= 35){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into Yale. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (29 < finalScore && finalScore <= 33){
@@ -353,6 +358,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into Columbia.'
         }
         else if (33 < finalScore && finalScore <= 35){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into Columbia. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (29 < finalScore && finalScore <= 33){
@@ -373,6 +379,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into Brown.'
         }
         else if (33 < finalScore && finalScore <= 35){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into Brown. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (29 < finalScore && finalScore <= 33){
@@ -393,6 +400,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into Princeton.'
         }
         else if (33 < finalScore && finalScore <= 35){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into Princeton. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (29 < finalScore && finalScore <= 33){
@@ -413,6 +421,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into UPenn.'
         }
         else if (33 < finalScore && finalScore <= 35){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into UPenn. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (29 < finalScore && finalScore <= 33){
@@ -433,6 +442,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into Cornell.'
         }
         else if (32 < finalScore && finalScore <= 34){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into Cornell. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (28 < finalScore && finalScore <= 32){
@@ -453,6 +463,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into CMU.'
         }
         else if (32 < finalScore && finalScore <= 34){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into CMU. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (28 < finalScore && finalScore <= 32){
@@ -473,6 +484,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into Dartmouth.'
         }
         else if (32 < finalScore && finalScore <= 34){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into Dartmouth. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (28 < finalScore && finalScore <= 32){
@@ -493,6 +505,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into Duke.'
         }
         else if (32 < finalScore && finalScore <= 34){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into Duke. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (28 < finalScore && finalScore <= 32){
@@ -513,6 +526,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into John Hopkins.'
         }
         else if (32 < finalScore && finalScore <= 34){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into John Hopkins. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (28 < finalScore && finalScore <= 32){
@@ -533,6 +547,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into Northwestern.'
         }
         else if (32 < finalScore && finalScore <= 34){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into Northwestern. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (28 < finalScore && finalScore <= 32){
@@ -553,6 +568,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into UC Berkeley.'
         }
         else if (32 < finalScore && finalScore <= 34){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into UC Berkeley. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (28 < finalScore && finalScore <= 32){
@@ -573,6 +589,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into Urbana Champaign.'
         }
         else if (32 < finalScore && finalScore <= 34){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into Urbana Champaign. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (28 < finalScore && finalScore <= 32){
@@ -593,6 +610,7 @@ function calcChance(){
             chance = 'You are likely to be accepted into GA Tech.'
         }
         else if (29 < finalScore && finalScore <= 31){
+            document.querySelector('.chance-chart').src = "images/somewhatlikely.png"
             chance = 'You are somewhat likely to be accepted into GA Tech. Increase your test scores, awards, and extracurriculars to get a better chance.'
         } 
         else if (25 < finalScore && finalScore <= 29){
