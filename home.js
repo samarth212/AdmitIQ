@@ -239,6 +239,38 @@ function calcFinalScore(){
     console.log(finalScore)
 }
 
+let chance = 'You are very unlikely to be accepted.'
+// || college == 'Cal Tech' || college == 'MIT' || college == 'Stanford'
+function calcChance(){
+    if (college == 'Harvard'){
+        if (finalScore > 42){
+            chance = 'You are very likely to be accepted into Harvard!'
+        }
+         
+    }
+    else if (college == 'Cal Tech'){
+        if (finalScore > 42){
+            chance = 'You are very likely to be accepted into Cal Tech!'
+        }
+         
+    }
+    else if (college == 'MIT'){
+        if (finalScore > 42){
+            chance = 'You are very likely to be accepted into MIT!'
+        }
+         
+    }
+    else if (college == 'Stanford'){
+        if (finalScore > 42){
+            chance = 'You are very likely to be accepted into Stanford!'
+        }
+         
+    }
+    
+}
+
+
+
 
 function changePicture(source){
     document.querySelector('.college-display').src = source
