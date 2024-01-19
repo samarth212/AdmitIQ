@@ -49,10 +49,10 @@ function calcStats(){
             satPoints = 5
         }
         else if (sat >= 1500){
-            satPoints = 3
+            satPoints = 2
         }
         else if (sat >= 1400){
-            satPoints = 1
+            satPoints = 0
         }
         else if (sat == 36 || sat == 35){
             satPoints = 5
@@ -61,7 +61,7 @@ function calcStats(){
             satPoints = 3
         }
         else{
-            satPoints = 0
+            satPoints = -5
         }
     }
 
@@ -236,12 +236,13 @@ let finalScore = 0
 
 function calcFinalScore(){
     finalScore = totalStat + ecFinalPoints + collegePoints
-    console.log(finalScore)
+    console.log('final:', finalScore)
 }
 
 let chance = 'You are very unlikely to be accepted.'
 function calcChance(){
    
+    console.log(finalScore)
     if (college == 'Harvard'){
         if (finalScore >= 42){
             chance = 'You are very likely to be accepted into Harvard!'
@@ -567,7 +568,7 @@ function calcChance(){
          
     }
     
-    
+    document.querySelector('.chance-text').innerHTML = chance
     
 }
 
