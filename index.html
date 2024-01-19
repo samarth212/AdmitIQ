@@ -102,6 +102,8 @@
         calcStats()
         calcEC()
         calcCollegeMajor()
+        calcFinalScore()
+        //resetting 
         changeMajor('Select Primary Major')
         changeCollege('Select Target College')
         document.querySelector('.gpa').value = ''
@@ -118,10 +120,11 @@
         major = ''
         college = ''
         collegePoints = 0
-        
+        finalScore = 0
         ">Calculate</button>
 
     </div>
+    <div class="results"></div>
 
 </body>
 <!--

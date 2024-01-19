@@ -232,9 +232,12 @@ function calcCollegeMajor(){
     
 }
 
+let finalScore = 0
 
-
-
+function calcFinalScore(){
+    finalScore = totalStat + ecFinalPoints + collegePoints
+    console.log(finalScore)
+}
 
 
 
