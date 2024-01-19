@@ -240,8 +240,8 @@ function calcFinalScore(){
 }
 
 let chance = 'You are very unlikely to be accepted.'
-// || college == 'Cal Tech' || college == 'MIT' || college == 'Stanford'
 function calcChance(){
+   
     if (college == 'Harvard'){
         if (finalScore >= 42){
             chance = 'You are very likely to be accepted into Harvard!'
@@ -314,6 +314,260 @@ function calcChance(){
         }
          
     }
+    else if (college == 'Yale'){
+        if (finalScore >= 40){
+            chance = 'You are very likely to be accepted into Yale!'
+        }
+        else if (35 < finalScore < 40){
+            chance = 'You are likely to be accepted into Yale.'
+        }
+        else if (33 < finalScore <= 35){
+            chance = 'You are somewhat likely to be accepted into Yale. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (29 < finalScore <= 33){
+            chance = 'You are unlikely to be accepted into Yale. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into Yale. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'Columbia'){
+        if (finalScore >= 40){
+            chance = 'You are very likely to be accepted into Columbia!'
+        }
+        else if (35 < finalScore < 40){
+            chance = 'You are likely to be accepted into Columbia.'
+        }
+        else if (33 < finalScore <= 35){
+            chance = 'You are somewhat likely to be accepted into Columbia. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (29 < finalScore <= 33){
+            chance = 'You are unlikely to be accepted into Columbia. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into Columbia. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'Brown'){
+        if (finalScore >= 40){
+            chance = 'You are very likely to be accepted into Brown!'
+        }
+        else if (35 < finalScore < 40){
+            chance = 'You are likely to be accepted into Brown.'
+        }
+        else if (33 < finalScore <= 35){
+            chance = 'You are somewhat likely to be accepted into Brown. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (29 < finalScore <= 33){
+            chance = 'You are unlikely to be accepted into Brown. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into Brown. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'Princeton'){
+        if (finalScore >= 40){
+            chance = 'You are very likely to be accepted into Princeton!'
+        }
+        else if (35 < finalScore < 40){
+            chance = 'You are likely to be accepted into Princeton.'
+        }
+        else if (33 < finalScore <= 35){
+            chance = 'You are somewhat likely to be accepted into Princeton. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (29 < finalScore <= 33){
+            chance = 'You are unlikely to be accepted into Princeton. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into Princeton. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'UPenn'){
+        if (finalScore >= 40){
+            chance = 'You are very likely to be accepted into UPenn!'
+        }
+        else if (35 < finalScore < 40){
+            chance = 'You are likely to be accepted into UPenn.'
+        }
+        else if (33 < finalScore <= 35){
+            chance = 'You are somewhat likely to be accepted into UPenn. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (29 < finalScore <= 33){
+            chance = 'You are unlikely to be accepted into UPenn. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into UPenn. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'Cornell'){
+        if (finalScore >= 39){
+            chance = 'You are very likely to be accepted into Cornell!'
+        }
+        else if (34 < finalScore < 39){
+            chance = 'You are likely to be accepted into Cornell.'
+        }
+        else if (32 < finalScore <= 34){
+            chance = 'You are somewhat likely to be accepted into Cornell. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (28 < finalScore <= 32){
+            chance = 'You are unlikely to be accepted into Cornell. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into Cornell. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'CMU'){
+        if (finalScore >= 39){
+            chance = 'You are very likely to be accepted into CMU!'
+        }
+        else if (34 < finalScore < 39){
+            chance = 'You are likely to be accepted into CMU.'
+        }
+        else if (32 < finalScore <= 34){
+            chance = 'You are somewhat likely to be accepted into CMU. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (28 < finalScore <= 32){
+            chance = 'You are unlikely to be accepted into CMU. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into CMU. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'Dartmouth'){
+        if (finalScore >= 39){
+            chance = 'You are very likely to be accepted into Dartmouth!'
+        }
+        else if (34 < finalScore < 39){
+            chance = 'You are likely to be accepted into Dartmouth.'
+        }
+        else if (32 < finalScore <= 34){
+            chance = 'You are somewhat likely to be accepted into Dartmouth. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (28 < finalScore <= 32){
+            chance = 'You are unlikely to be accepted into Dartmouth. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into Dartmouth. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'Duke'){
+        if (finalScore >= 39){
+            chance = 'You are very likely to be accepted into Duke!'
+        }
+        else if (34 < finalScore < 39){
+            chance = 'You are likely to be accepted into Duke.'
+        }
+        else if (32 < finalScore <= 34){
+            chance = 'You are somewhat likely to be accepted into Duke. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (28 < finalScore <= 32){
+            chance = 'You are unlikely to be accepted into Duke. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into Duke. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'John Hopkins'){
+        if (finalScore >= 39){
+            chance = 'You are very likely to be accepted into John Hopkins!'
+        }
+        else if (34 < finalScore < 39){
+            chance = 'You are likely to be accepted into John Hopkins.'
+        }
+        else if (32 < finalScore <= 34){
+            chance = 'You are somewhat likely to be accepted into John Hopkins. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (28 < finalScore <= 32){
+            chance = 'You are unlikely to be accepted into John Hopkins. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into John Hopkins. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'Northwestern'){
+        if (finalScore >= 39){
+            chance = 'You are very likely to be accepted into Northwestern!'
+        }
+        else if (34 < finalScore < 39){
+            chance = 'You are likely to be accepted into Northwestern.'
+        }
+        else if (32 < finalScore <= 34){
+            chance = 'You are somewhat likely to be accepted into Northwestern. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (28 < finalScore <= 32){
+            chance = 'You are unlikely to be accepted into Northwestern. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into Northwestern. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'UC Berkeley'){
+        if (finalScore >= 39){
+            chance = 'You are very likely to be accepted into UC Berkeley!'
+        }
+        else if (34 < finalScore < 39){
+            chance = 'You are likely to be accepted into UC Berkeley.'
+        }
+        else if (32 < finalScore <= 34){
+            chance = 'You are somewhat likely to be accepted into UC Berkeley. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (28 < finalScore <= 32){
+            chance = 'You are unlikely to be accepted into UC Berkeley. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into UC Berkeley. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'Urbana Champaign'){
+        if (finalScore >= 39){
+            chance = 'You are very likely to be accepted into Urbana Champaign!'
+        }
+        else if (34 < finalScore < 39){
+            chance = 'You are likely to be accepted into Urbana Champaign.'
+        }
+        else if (32 < finalScore <= 34){
+            chance = 'You are somewhat likely to be accepted into Urbana Champaign. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (28 < finalScore <= 32){
+            chance = 'You are unlikely to be accepted into Urbana Champaign. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into Urbana Champaign. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    else if (college == 'GA Tech'){
+        if (finalScore >= 36){
+            chance = 'You are very likely to be accepted into GA Tech!'
+        }
+        else if (31 < finalScore < 36){
+            chance = 'You are likely to be accepted into GA Tech.'
+        }
+        else if (29 < finalScore <= 31){
+            chance = 'You are somewhat likely to be accepted into GA Tech. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        } 
+        else if (25 < finalScore <= 29){
+            chance = 'You are unlikely to be accepted into GA Tech. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+        else{
+            chance = 'You are very unlikely to be accepted into GA Tech. Increase your test scores, awards, and extracurriculars to get a better chance.'
+        }
+         
+    }
+    
+    
     
 }
 
