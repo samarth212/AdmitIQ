@@ -662,8 +662,11 @@ function calcChance(){
 }
 
 
-
-
 function changePicture(source){
     document.querySelector('.college-display').src = source
 }
+
+
+
+
+//    transform: translate(-45%, -50%);

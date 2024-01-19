@@ -147,7 +147,6 @@ body{
     width: 1000px;
     height: 92vh;
     margin-left: 400px;
-    border-style: solid;
 
 }
 .chance-text{
@@ -174,4 +173,16 @@ body{
     height: 350px;
     object-fit: contain;
     margin: 0;
+    border: none;
 }
+
+.panel{
+    width: 3px;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    transform: translate(-45%, -50%);
+}
+

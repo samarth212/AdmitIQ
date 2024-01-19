@@ -5,10 +5,10 @@
     flex-direction: row;
     align-items: center;
     background-color: rgb(255, 120, 0);
-    opacity: 0.9;
     color: white;
     height: 80px;
     z-index: 1000;
+    position: relative;
 }
 
 .header-button{
