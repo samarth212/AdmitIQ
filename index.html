@@ -26,109 +26,112 @@
         
     </div>
 
-    <div class="user-info">
+    <div class="main">
+        <div class="user-info">
 
-        <div class="college-select">
-            <p class="user-info-header">College/University</p>
-            <div class="college-dropdown">
-                <button class="selected-college">Select Target College</button>
-                <div class="college-choices">
-                    <p onclick="changeCollege('Harvard'); college='Harvard';">Harvard</p>
-                    <p onclick="changeCollege('Stanford'); college='Stanford';">Stanford</p>
-                    <p onclick="changeCollege('MIT'); college='MIT';">MIT</p>
-                    <p onclick="changeCollege('UPenn'); college='UPenn';">UPenn</p>
-                    <p onclick="changeCollege('Cornell'); college='Cornell';">Cornell</p>
-                    <p onclick="changeCollege('CMU'); college='CMU';">CMU</p>
-                    <p onclick="changeCollege('Brown'); college='Brown';">Brown</p>
-                    <p onclick="changeCollege('Columbia'); college='Columbia';">Columbia</p>
-                    <p onclick="changeCollege('Dartmouth'); college='Dartmouth';">Dartmouth</p>
-                    <p onclick="changeCollege('Princeton'); college='Princeton';">Princeton</p>
-                    <p onclick="changeCollege('Yale'); college='Yale';">Yale</p>
-                    <p onclick="changeCollege('GA Tech'); college='GA Tech';">GA Tech</p>
-                    <p onclick="changeCollege('Cal Tech'); college='Cal Tech';">Cal Tech</p>
-                    <p onclick="changeCollege('Duke'); college='Duke';">Duke</p>
-                    <p onclick="changeCollege('John Hopkins'); college='John Hopkins';">John Hopkins</p>
-                    <p onclick="changeCollege('Northwestern'); college='Northwestern';">Northwestern</p>
-                    <p onclick="changeCollege('UC Berkeley'); college='UC Berkeley';">UC Berkeley</p>
-                    <p onclick="changeCollege('Urbana Champaign'); college='Urbana Champaign';">Urbana Champaign</p>
+            <div class="college-select">
+                <p class="user-info-header">College/University</p>
+                <div class="college-dropdown">
+                    <button class="selected-college">Select Target College</button>
+                    <div class="college-choices">
+                        <p onclick="changeCollege('Harvard'); college='Harvard'; changePicture('images/harvard.jpg');">Harvard</p>
+                        <p onclick="changeCollege('Stanford'); college='Stanford'; changePicture('images/stanford.png');">Stanford</p>
+                        <p onclick="changeCollege('MIT'); college='MIT'; changePicture('images/mit.jpeg');">MIT</p>
+                        <p onclick="changeCollege('UPenn'); college='UPenn'; changePicture('images/upenn.webp');">UPenn</p>
+                        <p onclick="changeCollege('Cornell'); college='Cornell'; changePicture('images/cornell.png');">Cornell</p>
+                        <p onclick="changeCollege('CMU'); college='CMU'; changePicture('images/cmu.jpeg');">CMU</p>
+                        <p onclick="changeCollege('Brown'); college='Brown'; changePicture('images/brown.jpeg');">Brown</p>
+                        <p onclick="changeCollege('Columbia'); college='Columbia'; changePicture('images/columbia.jpeg');">Columbia</p>
+                        <p onclick="changeCollege('Dartmouth'); college='Dartmouth'; changePicture('images/dartmouth.jpg');">Dartmouth</p>
+                        <p onclick="changeCollege('Princeton'); college='Princeton'; changePicture('images/princeton.jpg');">Princeton</p>
+                        <p onclick="changeCollege('Yale'); college='Yale'; changePicture('images/yale.jpeg');">Yale</p>
+                        <p onclick="changeCollege('GA Tech'); college='GA Tech'; changePicture('images/ga.webp');">GA Tech</p>
+                        <p onclick="changeCollege('Cal Tech'); college='Cal Tech'; changePicture('images/caltech.webp');">Cal Tech</p>
+                        <p onclick="changeCollege('Duke'); college='Duke'; changePicture('images/duke.jpeg');">Duke</p>
+                        <p onclick="changeCollege('John Hopkins'); college='John Hopkins'; changePicture('images/johnhopkins.jpeg');">John Hopkins</p>
+                        <p onclick="changeCollege('Northwestern'); college='Northwestern'; changePicture('images/northwestern.jpeg');">Northwestern</p>
+                        <p onclick="changeCollege('UC Berkeley'); college='UC Berkeley'; changePicture('images/ucberk.jpeg');">UC Berkeley</p>
+                        <p onclick="changeCollege('Urbana Champaign'); college='Urbana Champaign'; changePicture('images/urbana.jpeg');">Urbana Champaign</p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="stats">
-            <p class="user-info-header">Stats</p>
-            <input class="gpa" type="text" placeholder="Unweighted GPA">
-            <input class="sat" type="text" placeholder="SAT/ACT Score (write 0 if test-optional)">
-            <input class="regional-awards" type="text" placeholder="# of regional-level awards won">
-            <input class="state-awards" type="text" placeholder="# of state-level awards won">
-            <input class="national-awards" type="text" placeholder="# of national/international-level awards won">
-        </div>
-
-        <div class="ec">
-            <div class="ec-header">
-                <p class="user-info-header">Extracurriculars</p>
-                <p class="add-ec" onclick="
-                    addEC()
-                ">+</p>
+    
+            <div class="stats">
+                <p class="user-info-header">Stats</p>
+                <input class="gpa" type="text" placeholder="Unweighted GPA">
+                <input class="sat" type="text" placeholder="SAT/ACT Score (write 0 if test-optional)">
+                <input class="regional-awards" type="text" placeholder="# of regional-level awards won">
+                <input class="state-awards" type="text" placeholder="# of state-level awards won">
+                <input class="national-awards" type="text" placeholder="# of national/international-level awards won">
             </div>
-
-            
-            
-        </div>
-
-        <div class="major">
-            <p class="user-info-header">Major</p>
-            <div class="major-dropdown">
-                <button class="selected-major">Select Primary Major</button>
-                <div class="major-choices">
-                    <p onclick="changeMajor('Computer Science'); major='Computer Science';">Computer Science</p>
-                    <p onclick="changeMajor('Engineering'); major='Engineering';">Engineering</p>
-                    <p onclick="changeMajor('Medicine'); major='Medicine';">Medicine</p>
-                    <p onclick="changeMajor('Biology'); major='Biology';">Biology</p>
-                    <p onclick="changeMajor('Chemistry'); major='Chemistry';">Chemistry</p>
-                    <p onclick="changeMajor('Physics'); major='Physics';">Physics</p>
-                    <p onclick="changeMajor('Business'); major='Business';">Business</p>
-                    <p onclick="changeMajor('Economics'); major='Economics';">Economics</p>
-                    <p onclick="changeMajor('Political Science'); major='Political Science';">Political Science</p>
-                    <p onclick="changeMajor('Liberal Arts'); major='Liberal Arts';">Liberal Arts</p>
-                    <p onclick="changeMajor('Other'); major='Other';">Other</p>
+    
+            <div class="ec">
+                <div class="ec-header">
+                    <p class="user-info-header">Extracurriculars</p>
+                    <p class="add-ec" onclick="
+                        addEC()
+                    ">+</p>
+                </div>
+    
+                
+                
+            </div>
+    
+            <div class="major">
+                <p class="user-info-header">Major</p>
+                <div class="major-dropdown">
+                    <button class="selected-major">Select Primary Major</button>
+                    <div class="major-choices">
+                        <p onclick="changeMajor('Computer Science'); major='Computer Science';">Computer Science</p>
+                        <p onclick="changeMajor('Engineering'); major='Engineering';">Engineering</p>
+                        <p onclick="changeMajor('Medicine'); major='Medicine';">Medicine</p>
+                        <p onclick="changeMajor('Biology'); major='Biology';">Biology</p>
+                        <p onclick="changeMajor('Chemistry'); major='Chemistry';">Chemistry</p>
+                        <p onclick="changeMajor('Physics'); major='Physics';">Physics</p>
+                        <p onclick="changeMajor('Business'); major='Business';">Business</p>
+                        <p onclick="changeMajor('Economics'); major='Economics';">Economics</p>
+                        <p onclick="changeMajor('Political Science'); major='Political Science';">Political Science</p>
+                        <p onclick="changeMajor('Liberal Arts'); major='Liberal Arts';">Liberal Arts</p>
+                        <p onclick="changeMajor('Other'); major='Other';">Other</p>
+                    </div>
                 </div>
             </div>
+    
+            
+    
+            <button class="calculate" onclick="
+            calcStats()
+            calcEC()
+            calcCollegeMajor()
+            calcFinalScore()
+            //resetting 
+            changeMajor('Select Primary Major')
+            changeCollege('Select Target College')
+            document.querySelector('.gpa').value = ''
+            document.querySelector('.sat').value = ''
+            document.querySelector('.regional-awards').value = ''
+            document.querySelector('.state-awards').value = ''
+            document.querySelector('.national-awards').value = ''
+            document.querySelector('.ec').innerHTML = ecResetString
+            ecPoints = 0
+            totalECPoints = 0
+            ecCount = 0
+            ecFinalPoints = 0
+            totalStat = 0
+            major = ''
+            college = ''
+            collegePoints = 0
+            finalScore = 0
+            ">Calculate</button>
+    
         </div>
-
-        
-
-        <button class="calculate" onclick="
-        calcStats()
-        calcEC()
-        calcCollegeMajor()
-        calcFinalScore()
-        //resetting 
-        changeMajor('Select Primary Major')
-        changeCollege('Select Target College')
-        document.querySelector('.gpa').value = ''
-        document.querySelector('.sat').value = ''
-        document.querySelector('.regional-awards').value = ''
-        document.querySelector('.state-awards').value = ''
-        document.querySelector('.national-awards').value = ''
-        document.querySelector('.ec').innerHTML = ecResetString
-        ecPoints = 0
-        totalECPoints = 0
-        ecCount = 0
-        ecFinalPoints = 0
-        totalStat = 0
-        major = ''
-        college = ''
-        collegePoints = 0
-        finalScore = 0
-        ">Calculate</button>
-
+        <div class="results">
+    
+            <img class="college-display" src="" alt="">
+    
+        </div>
     </div>
-    <div class="results">
-
-        <img class="college-display" src="" alt="">
-
-    </div>
+    
 
 </body>
 

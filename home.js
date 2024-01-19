@@ -240,4 +240,6 @@ function calcFinalScore(){
 }
 
 
-
+function changePicture(source){
+    document.querySelector('.college-display').src = source
+}

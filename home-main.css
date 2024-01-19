@@ -10,7 +10,16 @@ body{
     background-color: rgb(80, 80, 80);
     font-family: Open Sans;
 }
-
+.main{
+    display: flex;
+}
+.college-display{
+    width: 900px;
+    height: 400px;
+    object-fit: contain;
+    margin-top: 50px;
+    margin-left: 400px;
+}
 
 .user-info-header{
     color: white;
