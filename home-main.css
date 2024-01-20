@@ -170,6 +170,7 @@ body{
     border-width: 1px;
     border-color: orange;
     margin-bottom: 0;
+    z-index: 100;
 }
 
 .chance-chart{
@@ -178,6 +179,7 @@ body{
     object-fit: contain;
     margin: 0;
     border: none;
+    z-index: 101;
 }
 
 .panel{
@@ -236,4 +238,18 @@ a{
 .info strong{
     color:rgb(255, 120, 0);
     font-size: 25px;
+}
+
+.default-display1{
+    position: absolute;
+    top: 300px;
+    color: white;
+    font-size: 35px;
+}
+.default-display2{
+    position: absolute;
+    top: 700px;
+    color: white;
+    font-size: 25px;
+    width: 400px;
 }
