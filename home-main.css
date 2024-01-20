@@ -240,16 +240,3 @@ a{
     font-size: 25px;
 }
 
-.default-display1{
-    position: absolute;
-    top: 300px;
-    color: white;
-    font-size: 35px;
-}
-.default-display2{
-    position: absolute;
-    top: 700px;
-    color: white;
-    font-size: 25px;
-    width: 400px;
-}
