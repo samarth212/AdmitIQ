@@ -217,3 +217,11 @@ body{
         left: 80%;
     }
 }
+
+.info{
+    color: rgb(255, 120, 0);
+    margin-left: 20px;
+}
+.info p{
+    color: white;
+}
