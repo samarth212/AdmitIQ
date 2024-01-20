@@ -147,6 +147,10 @@ body{
     width: 1000px;
     height: 92vh;
     margin-left: 400px;
+    background-color: gray;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
 
 }
 .chance-text{
@@ -182,7 +186,34 @@ body{
     background-color: black;
     position: fixed;
     top: 50%;
-    left: 45%;
+    left: 47.5%;
     transform: translate(-45%, -50%);
 }
 
+@media screen and (min-width: 2000px){
+    .panel{
+        left: 31.7%;
+    }
+}
+
+@media screen and (max-width: 1800px){
+    .panel{
+        left: 54.5%;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .panel{
+        left: 64%;
+    }
+}
+@media screen and (max-width: 1400px){
+    .panel{
+        left: 73.5%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .panel{
+        left: 80%;
+    }
+}
