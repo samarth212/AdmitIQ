@@ -220,9 +220,20 @@ body{
 
 .info{
     color: rgb(255, 120, 0);
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 50px;
 }
 .info p{
     color: white;
     font-size: 20px;
+}
+
+a{
+    color: white;
+}
+
+.info strong{
+    color:rgb(255, 120, 0);
+    font-size: 25px;
 }
