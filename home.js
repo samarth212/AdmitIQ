@@ -667,6 +667,31 @@ function changePicture(source){
 }
 
 
+function calcAlert(){
+
+    let canDisplay = true
+
+    let selectedSchool = document.querySelector(".selected-college").innerHTML
+    let selectMajor = document.querySelector(".selected-major").innerHTML
+
+    if (selectedSchool == 'Select Target College'){
+        alert('Please select a college.')
+        canDisplay = false
+    }
+
+    if (selectMajor == 'Select Primary Major'){
+        alert('Please select a major.')
+        canDisplay = false
+    }
+
+    if (canDisplay){
+        return true
+    }
+    else{
+        return false
+    }
+
+}
 
 
 //    transform: translate(-45%, -50%);

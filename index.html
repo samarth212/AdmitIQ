@@ -106,7 +106,10 @@
             calcEC()
             calcCollegeMajor()
             calcFinalScore()
-            calcChance()
+            calcAlert()
+            if (calcAlert()){
+                calcChance()
+            }
             //resetting 
             changeMajor('Select Primary Major')
             changeCollege('Select Target College')
