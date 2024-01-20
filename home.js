@@ -122,6 +122,7 @@ function addEC() {
                 <p onclick="changeType(this, 'School Club')">School club</p>
                 <p onclick="changeType(this, 'School Sport')">School sport</p>
                 <p onclick="changeType(this, 'Internship/Research')">Internship/Research</p>
+                <p onclick="changeType(this, 'Personal Project')">Personal Project</p>
                 <p onclick="changeType(this, 'Volunteering')">Volunteering</p>
                 <p onclick="changeType(this, 'Job')">Job</p>
             </div>
