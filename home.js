@@ -263,7 +263,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into Harvard. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into Harvard. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -286,7 +286,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into Cal Tech. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into Cal Tech. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -309,7 +309,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into MIT. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into MIT. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -332,7 +332,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into Stanford. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into Stanford. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -354,7 +354,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into Yale. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into Yale. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -377,7 +377,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into Columbia. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into Columbia. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -400,7 +400,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into Brown. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into Brown. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -423,7 +423,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into Princeton. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into Princeton. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -446,7 +446,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into UPenn. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into UPenn. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -469,7 +469,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into Cornell. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into Cornell. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -492,7 +492,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into CMU. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into CMU. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -515,7 +515,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into Dartmouth. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into Dartmouth. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -538,7 +538,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into Duke. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into Duke. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -561,7 +561,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into John Hopkins. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into John Hopkins. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -584,7 +584,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into Northwestern. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into Northwestern. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -607,7 +607,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into UC Berkeley. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into UC Berkeley. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -630,7 +630,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into Urbana Champaign. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into Urbana Champaign. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
@@ -653,7 +653,7 @@ function calcChance(){
         }
         else{
             document.querySelector('.chance-chart').src = "images/veryunlikely.png"
-            chance = 'You are very unlikely to be accepted into GA Tech. Increase your test scores, awards, and extracurriculars to get a better chance.'
+            chance = 'Your acceptance chance jumps to under 10%. You are very unlikely to be accepted into GA Tech. Increase your test scores, awards, and extracurriculars to get a better chance.'
         }
          
     }
