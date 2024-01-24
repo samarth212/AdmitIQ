@@ -247,7 +247,7 @@ function calcChance(){
     if (college == 'Harvard'){
         if (finalScore >= 42){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into Harvard!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into Harvard!'
         }
         else if (37 < finalScore && finalScore < 42){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -270,7 +270,7 @@ function calcChance(){
     else if (college == 'Cal Tech'){
         if (finalScore >= 42){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into Cal Tech!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into Cal Tech!'
         }
         else if (37 < finalScore && finalScore < 42){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -293,7 +293,7 @@ function calcChance(){
     else if (college == 'MIT'){
         if (finalScore >= 42){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into MIT!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into MIT!'
         }
         else if (37 < finalScore && finalScore < 42){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -316,7 +316,7 @@ function calcChance(){
     else if (college == 'Stanford'){
         if (finalScore >= 42){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into Stanford!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into Stanford!'
         }
         else if (37 < finalScore && finalScore < 42){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -339,7 +339,7 @@ function calcChance(){
     else if (college == 'Yale'){
         if (finalScore >= 40){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into Yale!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into Yale!'
         }
         else if (35 < finalScore && finalScore < 40){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -361,7 +361,7 @@ function calcChance(){
     else if (college == 'Columbia'){
         if (finalScore >= 40){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into Columbia!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into Columbia!'
         }
         else if (35 < finalScore && finalScore < 40){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -384,7 +384,7 @@ function calcChance(){
     else if (college == 'Brown'){
         if (finalScore >= 40){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into Brown!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into Brown!'
         }
         else if (35 < finalScore && finalScore < 40){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -407,7 +407,7 @@ function calcChance(){
     else if (college == 'Princeton'){
         if (finalScore >= 40){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into Princeton!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into Princeton!'
         }
         else if (35 < finalScore && finalScore < 40){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -430,7 +430,7 @@ function calcChance(){
     else if (college == 'UPenn'){
         if (finalScore >= 40){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into UPenn!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into UPenn!'
         }
         else if (35 < finalScore && finalScore < 40){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -453,7 +453,7 @@ function calcChance(){
     else if (college == 'Cornell'){
         if (finalScore >= 39){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into Cornell!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into Cornell!'
         }
         else if (34 < finalScore && finalScore < 39){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -476,7 +476,7 @@ function calcChance(){
     else if (college == 'CMU'){
         if (finalScore >= 39){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into CMU!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into CMU!'
         }
         else if (34 < finalScore && finalScore < 39){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -499,7 +499,7 @@ function calcChance(){
     else if (college == 'Dartmouth'){
         if (finalScore >= 39){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into Dartmouth!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into Dartmouth!'
         }
         else if (34 < finalScore && finalScore < 39){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -522,7 +522,7 @@ function calcChance(){
     else if (college == 'Duke'){
         if (finalScore >= 39){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into Duke!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into Duke!'
         }
         else if (34 < finalScore && finalScore < 39){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -545,7 +545,7 @@ function calcChance(){
     else if (college == 'John Hopkins'){
         if (finalScore >= 39){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into John Hopkins!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into John Hopkins!'
         }
         else if (34 < finalScore && finalScore < 39){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -568,7 +568,7 @@ function calcChance(){
     else if (college == 'Northwestern'){
         if (finalScore >= 39){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into Northwestern!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into Northwestern!'
         }
         else if (34 < finalScore && finalScore < 39){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -591,7 +591,7 @@ function calcChance(){
     else if (college == 'UC Berkeley'){
         if (finalScore >= 39){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into UC Berkeley!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into UC Berkeley!'
         }
         else if (34 < finalScore && finalScore < 39){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -614,7 +614,7 @@ function calcChance(){
     else if (college == 'Urbana Champaign'){
         if (finalScore >= 39){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into Urbana Champaign!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into Urbana Champaign!'
         }
         else if (34 < finalScore && finalScore < 39){
             document.querySelector('.chance-chart').src = "images/likely.png"
@@ -637,7 +637,7 @@ function calcChance(){
     else if (college == 'GA Tech'){
         if (finalScore >= 36){
             document.querySelector('.chance-chart').src = "images/verylikely.png"
-            chance = 'You are very likely to be accepted into GA Tech!'
+            chance = 'Your acceptance chance jumps to over 50%. You are very likely to be accepted into GA Tech!'
         }
         else if (31 < finalScore && finalScore < 36){
             document.querySelector('.chance-chart').src = "images/likely.png"
