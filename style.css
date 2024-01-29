@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #1b1b1b; /* Dark background color */
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.main {
+    display: flex;
+}
+
+/* Add your existing CSS styles below */
+
+/* ... */
+
+.header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1b1b1b; /* Dark background color */
+    color: white;
+    height: 80px;
+    z-index: 1000;
+    position: relative;
+}
+
+.header-button {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Open Sans', sans-serif;
+    transition: color 0.5s;
+}
+
+.header-button:hover {
+    color: #ff7800; /* Highlight color on hover */
+}
+
+/* ... */
