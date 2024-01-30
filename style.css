@@ -24,6 +24,10 @@ body {
     height: 80px;
     z-index: 1000;
     position: relative;
+    transition: background-color 0.3s;
+}
+.header:hover{
+    background-color: rgb(40, 40, 40);
 }
 
 .header-button {
